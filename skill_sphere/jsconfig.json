@@ -15,5 +15,9 @@
       "dom.iterable",
       "scripthost"
     ]
-  }
+  },
+  "parserOptions": {
+      "parser": "@babel/eslint-parser",
+      "requireConfigFile": false // add this in package.json for Vue3
+    }
 }
