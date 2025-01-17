@@ -9,6 +9,7 @@ import ShowcaseView from "@/components/views/showCase.vue";
 import Containment from "@/components/showcase/ContainmentComponents.vue";
 import Navigation from "@/components/showcase/NavigationComponents.vue";
 import FormInputs from "@/components/showcase/FormInputs.vue";
+import DataDisplay from "@/components/showcase/DataDisplay.vue";
 
 // Configura le rotte
 const routes = [
@@ -40,6 +41,7 @@ const routes = [
       { path: "containment", component: Containment },
       { path: "navigation", component: Navigation },
       { path: "form-inputs", component: FormInputs },
+      { path: "data-display", component: DataDisplay },
     ],
   },
 ];
